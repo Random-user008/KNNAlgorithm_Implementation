@@ -1,9 +1,5 @@
 from knn_func import knn,euclidean_distance,mean
 
-#import matplotlib as plt
-
-#import numpy as np
-
 def predict(query,knum):
     raw_data = []
     with open('Prostate_Cancer.csv','r') as md:
